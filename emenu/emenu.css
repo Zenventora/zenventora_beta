@@ -18,3 +18,65 @@
 .upload-menu-note{max-width:980px;margin:20px auto 0;padding:16px 20px;border:1px solid #f3d7b0;border-radius:16px;background:#fff9f0;color:#8a461d;display:flex;gap:8px;align-items:flex-start;line-height:1.55}
 .upload-menu-note strong{white-space:nowrap}
 @media(max-width:800px){.upload-menu-grid{grid-template-columns:1fr}.upload-menu-note{display:block}.upload-menu-note strong{display:block;margin-bottom:4px}}
+
+
+/* E-menu header alignment: keep the desktop navigation on one clean row. */
+.emenu-page .site-header .nav {
+  width: min(100% - 48px, 1500px);
+  min-height: 88px;
+  gap: 24px;
+}
+
+.emenu-page .site-header .emenu-brand {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.emenu-page .site-header .nav-menu {
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  gap: 22px;
+  flex-wrap: nowrap;
+  min-width: 0;
+}
+
+.emenu-page .site-header .cta-area--header {
+  flex: 0 0 auto;
+  flex-wrap: nowrap;
+  min-height: 0;
+  gap: 12px;
+  margin-left: 8px;
+}
+
+.emenu-page .site-header .cta-area--header .btn {
+  white-space: nowrap;
+}
+
+@media (max-width: 1300px) and (min-width: 1121px) {
+  .emenu-page .site-header .nav {
+    width: min(100% - 32px, 1220px);
+    gap: 14px;
+  }
+
+  .emenu-page .site-header .nav-menu {
+    gap: 14px;
+    font-size: .94rem;
+  }
+
+  .emenu-page .site-header .cta-area--header {
+    gap: 8px;
+    margin-left: 4px;
+  }
+
+  .emenu-page .site-header .cta-area--header .btn-small {
+    padding: 9px 13px;
+  }
+}
+
+/* Once the menu switches to the mobile drawer, restore the global container sizing. */
+@media (max-width: 1120px) {
+  .emenu-page .site-header .nav {
+    width: min(100% - 32px, 1120px);
+    min-height: 76px;
+  }
+}
