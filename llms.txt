@@ -58,4 +58,4 @@ For search and AI-powered discovery, Zenventora can improve clarity, site struct
 
 ## E-menu
 
-E-menu by Zenventora is an affordable QR-based live menu product for cafes, restaurants, hotels, and food businesses. Visit https://zenventora.in/emenu/ for features, plan comparisons, and FAQs.
+E-menu by Zenventora is a QR-based live menu product for cafes, restaurants, hotels, and food businesses. It supports item-based menu creation, templates and styles, Today’s Menu availability, a permanent QR code, customer preview, and an existing-menu file upload path where businesses can upload, remove, replace, or add menu files. Visit https://emenu.zenventora.in/ for features and FAQs.
